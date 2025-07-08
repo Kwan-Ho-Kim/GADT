@@ -1,5 +1,9 @@
 # GADT
-![image](./uploads/Gongeoptap-BEV-Ours-overlay.png)
+<p align="center">
+  <img src="./uploads/Gongeoptap-BEV-Raw.png" width="33%" />
+  <img src="./uploads/Gongeoptap-BEV-Ours-DT.png" width="33%" />
+  <img src="./uploads/Gongeoptap-BEV-Ours-overlay.png" width="33%" />
+</p>
 
 ## Requirements Setup
 
