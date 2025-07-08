@@ -115,3 +115,4 @@ InitTestScene*.unity*
 /Packages/System*
 
 /docs
+/.vsconfig
