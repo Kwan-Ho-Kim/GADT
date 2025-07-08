@@ -113,3 +113,5 @@ InitTestScene*.unity*
 
 /Packages/OpenCV*
 /Packages/System*
+
+/docs
