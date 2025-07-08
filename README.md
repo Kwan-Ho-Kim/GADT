@@ -1,9 +1,18 @@
 # GADT
 
 ## Requirements Setup
+
 ### Install Unity
-### OpenCvSharp
-### TextMesh Pro
+
+### Install packages assets
+Install OpenCvSharp package
+
+Install TextMesh Pro package
+
+### Install Plugins
+Ookii.Dialogs.dll and System.Windows.Forms.dll for window explorer
+
+opencv_videoio_ffmpeg4100_64.dll for video uploader
 
 ## Demo
 
