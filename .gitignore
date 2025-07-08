@@ -110,3 +110,6 @@ InitTestScene*.unity*
 /[Aa]ssets/Environments
 /[Aa]ssets/Plugins*
 /[Aa]ssets/Experiments*
+
+/Packages/OpenCV*
+/Packages/System*
