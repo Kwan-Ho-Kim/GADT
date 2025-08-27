@@ -21,6 +21,7 @@ Ookii.Dialogs.dll and System.Windows.Forms.dll for window explorer
 opencv_videoio_ffmpeg4100_64.dll for video uploader
 
 ## Demo
+For demo, we provide the part of a digital twin environment, Gongeoptap DT. 
 
 ## Custom Environments
 
