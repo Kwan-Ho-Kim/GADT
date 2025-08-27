@@ -11,7 +11,7 @@ GADT is a camera calibration tool utilizing digital twin based on genetic algori
 ### Install Unity
 
 ### Install packages assets
-Install OpenCvSharp package
+Install OpenCv plus Unity package from asset store
 
 Install TextMesh Pro package
 
