@@ -1,4 +1,5 @@
 # GADT
+GADT is a camera calibration tool utilizing digital twin based on genetic algorithm. Below figures show the motivation and calibration results. To install this package, follow requirments setup. Demo and using with your custom digital twin environment can be also used for calibration, following instructions.
 <p align="center">
   <img src="./uploads/Gongeoptap-BEV-Raw.png" width="33%" />
   <img src="./uploads/Gongeoptap-BEV-Ours-DT.png" width="33%" />
