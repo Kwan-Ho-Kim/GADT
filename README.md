@@ -1,3 +1,5 @@
+![Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows)
+
 # GADT
 GADT is a camera calibration tool utilizing digital twin based on genetic algorithm. Below figures show the motivation and calibration results. To install this package, follow package installation section Using with your custom digital twin environment is also available. If you need tutorial of the package, follow Demo section.
 <p align="center">
