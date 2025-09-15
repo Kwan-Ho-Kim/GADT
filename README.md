@@ -22,6 +22,11 @@ opencv_videoio_ffmpeg4100_64.dll for video uploader
 
 ## Demo
 For demo, we provide the part of a digital twin environment, Gongeoptap DT. And the keypoints for that environment (i.e. dataset $\mathcal{D}$ in the paper) is also provided.
+1. Play the game in `SceneSelect` scene
+2. Click `run1` and `Next` button
+3. Change `Const` strategy to `Exponential` (You can leave the other settings)
+4. Click `Optimize` button and start the calibration
+5. Click `Export` button to save camera parameters of certain step (saved in Demo directory)
 
 ## Custom Environments
 1. **Duplicate Scene**: Copy `Gongeoptap` scene, rename it, and add it to **Build Settings**.
