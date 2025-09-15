@@ -21,7 +21,14 @@ Ookii.Dialogs.dll and System.Windows.Forms.dll for window explorer
 opencv_videoio_ffmpeg4100_64.dll for video uploader
 
 ### Download GADT
-git clone 
+1. Open command prompt (CMD) and go to the directory in which you want to download the package.
+2. Enter following command to download the package.
+```
+git clone https://github.com/Kwan-Ho-Kim/GADT.git
+```
+
+3. Open Unity Hub and Add the project you downloaded.
+4. Execute added project.
 
 ## Custom Environments
 1. **Duplicate Scene**: Copy `Gongeoptap` scene, rename it, and add it to **Build Settings**.
