@@ -108,7 +108,7 @@ InitTestScene*.unity*
 /[Aa]ssets/Scenes/test*
 /[Aa]ssets/Scenes/SewageTreatPlant*
 /[Aa]ssets/Environments
-/[Aa]ssets/Plugins*
+/[Aa]ssets/Plugin*
 /[Aa]ssets/Experiments*
 
 /Packages/OpenCV*

@@ -11,7 +11,8 @@ public class DataManager
 
     public DataManager()
     {
-        dir_path = Application.persistentDataPath;
+        //dir_path = Application.persistentDataPath;
+        dir_path = "Assets/Demo";
     }
     public DataManager(string dir_path_)
     {
