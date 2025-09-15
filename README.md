@@ -1,12 +1,12 @@
 # GADT
-GADT is a camera calibration tool utilizing digital twin based on genetic algorithm. Below figures show the motivation and calibration results. To install this package, follow requirments setup. Using with your custom digital twin environment is also available. If you need tutorial of the package, follow Demo section.
+GADT is a camera calibration tool utilizing digital twin based on genetic algorithm. Below figures show the motivation and calibration results. To install this package, follow package installation section Using with your custom digital twin environment is also available. If you need tutorial of the package, follow Demo section.
 <p align="center">
   <img src="./uploads/Gongeoptap-BEV-Raw.png" width="33%" />
   <img src="./uploads/Gongeoptap-BEV-Ours-DT.png" width="33%" />
   <img src="./uploads/Gongeoptap-BEV-Ours-overlay.png" width="33%" />
 </p>
 
-## Requirements Setup
+## Package installation
 
 ### Install Unity
 
@@ -19,6 +19,9 @@ Install TextMesh Pro package
 Ookii.Dialogs.dll and System.Windows.Forms.dll for window explorer
 
 opencv_videoio_ffmpeg4100_64.dll for video uploader
+
+### Download GADT
+git clone 
 
 ## Custom Environments
 1. **Duplicate Scene**: Copy `Gongeoptap` scene, rename it, and add it to **Build Settings**.
