@@ -29,7 +29,7 @@ git clone https://github.com/Kwan-Ho-Kim/GADT.git
 
 ### Install packages assets
 Install OpenCv plus Unity package from asset store.
- - assetstore.unity.com/packages/tools/integration/opencv-plus-unity-85928
+ - https://assetstore.unity.com/
 
 Install TextMesh Pro package when system asks to install it.
 
