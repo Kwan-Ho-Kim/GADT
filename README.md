@@ -9,7 +9,7 @@ GADT is a camera calibration tool utilizing digital twin based on genetic algori
   <img src="./uploads/Gongeoptap-BEV-Ours-overlay.png" width="33%" />
 </p>
 
-## Package installation
+## Installation
 
 ### Install Unity
 
@@ -32,13 +32,23 @@ git clone https://github.com/Kwan-Ho-Kim/GADT.git
 1. Install TextMesh Pro package when system asks to install it.
 2. Install OpenCv plus Unity package from asset store.
  - https://assetstore.unity.com/
+3. Download unity package from following link (demo environment) and import it into GADT
+ - http://gofile.me/5dxCg/uiFrKzjgQ
 
 ### Install Plugins
-1. Download following dll files from http://gofile.me/5dxCg/XDTwqRK1P
+1. Download following .dll files from http://gofile.me/5dxCg/XDTwqRK1P
  - Ookii.Dialogs.dll, System.Windows.Forms.dll for window explorer
  - opencv_videoio_ffmpeg4100_64.dll for video uploader
 2. Make Assets/Plugins directory in GADT project
 3. Copy downloaded dll files into Plugins directory
+
+## Demo
+For demo, we provide the part of a digital twin environment, Gongeoptap DT. And the keypoints for that environment (i.e. dataset $\mathcal{D}$ in the paper) is also provided.
+1. Play the game in `SceneSelect` scene
+2. Click `run1` and `Next` button
+3. Change `Const` strategy to `Exponential` (You can leave the other settings)
+4. Click `Optimize` button and start the calibration
+5. Click `Export` button to save camera parameters of certain step (saved in Demo directory)
 
 ## Custom Environments
 1. **Duplicate Scene**: Copy `Gongeoptap` scene, rename it, and add it to **Build Settings**.
@@ -49,12 +59,3 @@ git clone https://github.com/Kwan-Ho-Kim/GADT.git
 6. **Adjust Settings**: Configure colliders, reposition `RenderCam` object,
 7. **Update Control Parameters**: In `User Interface` component from `Canvas` object, adjust control parameters.
 
-## Demo
-For demo, we provide the part of a digital twin environment, Gongeoptap DT. And the keypoints for that environment (i.e. dataset $\mathcal{D}$ in the paper) is also provided.
-1. Play the game in `SceneSelect` scene
-2. Click `run1` and `Next` button
-3. Change `Const` strategy to `Exponential` (You can leave the other settings)
-4. Click `Optimize` button and start the calibration
-5. Click `Export` button to save camera parameters of certain step (saved in Demo directory)
-
-## Cite
