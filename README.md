@@ -1,4 +1,5 @@
 ![Windows](https://img.shields.io/badge/OS-Windows-blue?logo=windows)
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://unity3d.com)
 
 # GADT
 GADT is a camera calibration tool utilizing digital twin based on genetic algorithm. Below figures show the motivation and calibration results. To install this package, follow package installation section Using with your custom digital twin environment is also available. If you need tutorial of the package, follow Demo section.
@@ -13,7 +14,7 @@ GADT is a camera calibration tool utilizing digital twin based on genetic algori
 ### Install Unity
 
 Install Unity Hub and Editor following https://docs.unity3d.com/hub/manual/InstallHub.html.
-GADT is tested on following version.
+GADT is validated on following version.
  - Hub: 3.8.0
  - Editor: 2022.3.49
 
@@ -28,15 +29,16 @@ git clone https://github.com/Kwan-Ho-Kim/GADT.git
 4. Execute added project.
 
 ### Install packages assets
-Install OpenCv plus Unity package from asset store.
+1. Install TextMesh Pro package when system asks to install it.
+2. Install OpenCv plus Unity package from asset store.
  - https://assetstore.unity.com/
 
-Install TextMesh Pro package when system asks to install it.
-
 ### Install Plugins
-Ookii.Dialogs.dll and System.Windows.Forms.dll for window explorer
-
-opencv_videoio_ffmpeg4100_64.dll for video uploader
+1. Download following dll files from http://gofile.me/5dxCg/XDTwqRK1P
+ - Ookii.Dialogs.dll, System.Windows.Forms.dll for window explorer
+ - opencv_videoio_ffmpeg4100_64.dll for video uploader
+2. Make Assets/Plugins directory in GADT project
+3. Copy downloaded dll files into Plugins directory
 
 ## Custom Environments
 1. **Duplicate Scene**: Copy `Gongeoptap` scene, rename it, and add it to **Build Settings**.
