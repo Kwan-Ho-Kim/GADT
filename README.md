@@ -12,15 +12,10 @@ GADT is a camera calibration tool utilizing digital twin based on genetic algori
 
 ### Install Unity
 
-### Install packages assets
-Install OpenCv plus Unity package from asset store
-
-Install TextMesh Pro package
-
-### Install Plugins
-Ookii.Dialogs.dll and System.Windows.Forms.dll for window explorer
-
-opencv_videoio_ffmpeg4100_64.dll for video uploader
+Install Unity Hub and Editor following https://docs.unity3d.com/hub/manual/InstallHub.html.
+GADT is tested on following version.
+ - Hub: 3.8.0
+ - Editor: 2022.3.49
 
 ### Download GADT
 1. Open command prompt (CMD) and go to the directory in which you want to download the package.
@@ -31,6 +26,17 @@ git clone https://github.com/Kwan-Ho-Kim/GADT.git
 
 3. Open Unity Hub and Add the project you downloaded.
 4. Execute added project.
+
+### Install packages assets
+Install OpenCv plus Unity package from asset store.
+ - assetstore.unity.com/packages/tools/integration/opencv-plus-unity-85928
+
+Install TextMesh Pro package when system asks to install it.
+
+### Install Plugins
+Ookii.Dialogs.dll and System.Windows.Forms.dll for window explorer
+
+opencv_videoio_ffmpeg4100_64.dll for video uploader
 
 ## Custom Environments
 1. **Duplicate Scene**: Copy `Gongeoptap` scene, rename it, and add it to **Build Settings**.
