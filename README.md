@@ -37,8 +37,8 @@ git clone https://github.com/Kwan-Ho-Kim/GADT.git
 
 ### Install Plugins
 1. Download following .dll files from http://gofile.me/5dxCg/XDTwqRK1P
- - Ookii.Dialogs.dll, System.Windows.Forms.dll for window explorer
- - opencv_videoio_ffmpeg4100_64.dll for video uploader
+ - `Ookii.Dialogs.dll` and `System.Windows.Forms.dll` for window explorer
+ - `opencv_videoio_ffmpeg4100_64.dll` for video uploader
 2. Make Assets/Plugin directory in GADT project
 3. Copy downloaded dll files into Plugins directory
 
